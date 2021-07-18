@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
     console.log(`Bot online !`);
-    console.log(`${client.channels.size}`);
+    console.log(`${client.channels.cache.size}`);
 
 });
 
